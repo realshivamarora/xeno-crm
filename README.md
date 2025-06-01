@@ -1,5 +1,7 @@
 # 🌐Xeno CRM — Customer Relationship Management Web App
-An **Google Gemini AI-Powered** full stack Mini CRM (Customer Relationship Management) Web App - built using ReactJS and Bootstrap in the frontend, and NodeJS and ExpressJS in the backend, with database services powered by MongoDB. A comprehensive application which allows a company or an organization to manage Customer Relationship. Features include:
+An **Google Gemini AI-Powered** full stack Mini CRM (Customer Relationship Management) Web App - built using ReactJS and Bootstrap in the frontend, and NodeJS and ExpressJS in the backend, with database services powered by MongoDB. A comprehensive application which allows a company or an organization to manage Customer Relationship.
+
+## ✨Features:
 - **Login Authentication** with **Google OAuth**, only whitelisted users are allowed to login.
 - **Dashboard** which provides various functionalities of the web app.
 - **Enter Customer Data** enables user to enter customer data, appears with a form to enter customer details: Customer ID, Customer Name, Customer City, Customer Mobile, Customer Email. Customer ID is system generated and is **gurantteed to be unique.** All this data goes to MongoDB table customers.
@@ -14,3 +16,86 @@ The site is live at [https://crm-aroratech.netlify.app/](https://crm-aroratech.n
 
 ## 🖼️Screenshots
 
+## 🛠Tech Stack
+- **Frontend:** ReactJS, Axios, CSS
+- **Backend:** NodeJS, ExpressJS
+- **Database:** MongoDB
+- **Authentication:** Google OAuth
+- **AI API:** Google Gemini
+- **Email Services:** Nodemailer
+- **Deployment:** Render (backend), Netlify (frontend)
+
+## 🔐Environment Variables
+When deploying this project on your local machine, have these .env files in your backend and frontend folders:
+
+- **Backend (.env)**
+  ```
+  MONGO_URI=your_mongo_connection_string
+  PORT=10000
+  MAIL_USER=your_gmail@gmail.com
+  MAIL_PASS=your_gmail_app_password
+  ```
+
+- **Frontend (.env)**
+  ```
+  REACT_APP_BACKEND_URL=your_backend_deployment_link
+  ```
+
+## 🧪Run Locally
+1. Clone the project
+   ```
+   git clone https://github.com/realshivamarora/xeno-crm
+   cd xeno-crm
+   ```
+
+2. Install dependencies
+   ```
+   cd backend
+   npm install
+
+   cd ../frontend
+   npm install
+   ```
+
+3. Start the servers
+   ```
+   # Backend
+   cd backend
+   nodemon index.js
+
+   # Frontend
+   cd ../frontend
+   npm start
+   ```
+## 📧Email Feature
+Emails are sent via Gmail SMTP using nodemailer. You'll receive the email in real-time
+
+## Folder Structure
+```
+xeno-crm/
+├── backend/
+│   ├── routes/
+│   ├── models/
+│   └── index.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   └── App.js
+└── README.md
+```
+
+## ⚠️License & Usage
+
+This project is intended solely for academic and demonstrative purposes, and is built exclusively for **Xeno** by **Shivam Arora** under the AroraTech flag.
+
+✅ Authorized use, including local deployment and internal testing, is permitted strictly for the Xeno team.
+
+🚫 No part of this codebase may be copied, stored, reproduced, or used for commercial purposes by any third party without prior written permission from the author.
+
+Unauthorized distribution or usage in any form — including plagiarism — is strictly prohibited.
+
+© 2025 AroraTech. All rights reserved.
+
+## Author
+Designed and Built by **Shivam Arora**, under the flag name AroraTech
+Learn More at **Shivam Arora** at [https://aroratech.tech](https://aroratech.tech)
