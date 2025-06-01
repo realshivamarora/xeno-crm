@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6327049a-e423-4798-80fe-f2141f13dccf)# 🌐Xeno CRM — Customer Relationship Management Web App
+# 🌐Xeno CRM — Customer Relationship Management Web App
 An **Google Gemini AI-Powered** full stack Mini CRM (Customer Relationship Management) Web App - built using ReactJS and Bootstrap in the frontend, and NodeJS and ExpressJS in the backend, with database services powered by MongoDB. A comprehensive application which allows a company or an organization to manage Customer Relationship.
 
 ## ✨Features:
