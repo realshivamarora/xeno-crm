@@ -1,4 +1,4 @@
-# 🌐Xeno CRM — Customer Relationship Management Web App
+![image](https://github.com/user-attachments/assets/6327049a-e423-4798-80fe-f2141f13dccf)# 🌐Xeno CRM — Customer Relationship Management Web App
 An **Google Gemini AI-Powered** full stack Mini CRM (Customer Relationship Management) Web App - built using ReactJS and Bootstrap in the frontend, and NodeJS and ExpressJS in the backend, with database services powered by MongoDB. A comprehensive application which allows a company or an organization to manage Customer Relationship.
 
 ## ✨Features:
@@ -15,6 +15,24 @@ An **Google Gemini AI-Powered** full stack Mini CRM (Customer Relationship Manag
 The site is live at [https://crm-aroratech.netlify.app/](https://crm-aroratech.netlify.app)
 
 ## 🖼️Screenshots
+![Login Authentication Page - via Google OAuth](https://github.com/user-attachments/assets/16d869c0-af28-4526-b1cc-c168fffe13af)
+![Dashboard](https://github.com/user-attachments/assets/e19b2569-19ae-4bf2-9bad-f2f336e53697)
+![Enter Customer Data](https://github.com/user-attachments/assets/9d5529a3-86e7-4f6c-aa20-47b3889ce2d9)
+![Customer Data Entered](https://github.com/user-attachments/assets/53a0dadb-9299-4882-bef4-d37650c7e05f)
+![Enter Order Data](https://github.com/user-attachments/assets/ae43406f-661d-4fc9-8721-177cbbe49dd6)
+![Order Data Entered](https://github.com/user-attachments/assets/befe8f2d-626d-4970-8a48-5d0823971629)
+![Query Builder Window](https://github.com/user-attachments/assets/dbc2096c-4377-4ecb-bb08-3d9a3b108403)
+![Single Query Run - Manual](https://github.com/user-attachments/assets/cefa3e2c-7d25-4e4d-af67-9c4dfd6012c6)
+![Combination of Queries - Manual](https://github.com/user-attachments/assets/acebcb06-689d-4e68-90d7-694c4ee049b1)
+![Query run with AI - single](https://github.com/user-attachments/assets/cf61cc50-595a-4428-a08c-4dd7ce0c6a82)
+![Query run with AI - combination](https://github.com/user-attachments/assets/fa065da0-f17c-4b22-9968-41729c71954a)
+![Randomly Generated Campaign Messages - Different for each user](https://github.com/user-attachments/assets/a76c19ee-c1dc-413d-ad53-fe3c78ebc055)
+![Mail Sent to Single Customer](https://github.com/user-attachments/assets/942ecd93-aad8-44b3-af38-2486c76aff45)
+![Mail Sent to All Customers](https://github.com/user-attachments/assets/c94eef43-5620-4705-8961-8fd1a4bebac6)
+![Segment History](https://github.com/user-attachments/assets/0ed3e052-ee3a-466a-a073-e4b10ab6971e)
+![Camaign History/Communication Log/Message History](https://github.com/user-attachments/assets/dbc03b7e-6993-4cdd-9aaf-90b7b0ab5875)
+![Message Delievery Stats - Donut Chart](https://github.com/user-attachments/assets/fb82cf50-4368-4c15-8564-b6c7c13b9c65)
+
 
 ## 🛠Tech Stack
 - **Frontend:** ReactJS, Axios, CSS
